@@ -1,10 +1,3 @@
-I can help create a README file for your GitHub repository based on the content of the notebook you've provided. I'll first review the notebook to gather the necessary details, and then I'll draft the README.
-
-Let me take a look at the notebook.
-
-Based on the content of the notebook, it appears to be a starter project for training a neural network on the MNIST dataset using PyTorch. The notebook includes sections for data loading, model definition, training, and evaluation. Here's a draft for the README file:
-
----
 
 # MNIST Handwritten Digits Classification
 
@@ -21,13 +14,6 @@ The goal of this project is to train a simple feedforward neural network to clas
 - **Training**: The model is trained using a cross-entropy loss and the Adam optimizer.
 - **Evaluation**: The model's accuracy and loss are evaluated on the test set.
 
-## Dependencies
-
-To run the code, you need to install the required Python packages. You can install them using the provided `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Running the Project
 
@@ -37,12 +23,7 @@ pip install -r requirements.txt
     cd <repository_name>
     ```
 
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the notebook**:
+2. **Run the notebook**:
     Open the `MNIST_Handwritten_Digits_STARTER.ipynb` notebook and run the cells sequentially to train the model.
 
 ## Results
@@ -56,7 +37,6 @@ After training, the model achieves the following results:
 ## Repository Structure
 
 - `MNIST_Handwritten_Digits_STARTER.ipynb`: The Jupyter notebook containing the code.
-- `requirements.txt`: A list of required Python packages.
 - `checkpoint.pth`: The trained model (generated after running the notebook).
 
 ## License
@@ -65,10 +45,4 @@ This project is licensed under the MIT License.
 
 ---
 
-You can customize this README based on additional details or specific instructions you may want to include. Let me know if you'd like to adjust anything!
-MNIST_Handwritten_Digits_STARTER.ipynb: The Jupyter notebook containing the code.
-requirements.txt: A list of required Python packages.
-checkpoint.pth: The trained model (generated after running the notebook).
-License
-This project is licensed under the MIT License.
 
